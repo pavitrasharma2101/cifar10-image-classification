@@ -1,0 +1,5 @@
+LABELS = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+IMAGE_WIDTH = 32
+IMAGE_HEIGHT = 32
+IMAGE_CHANNEL = 3
+IMAGE_SHAPE = (IMAGE_CHANNEL, IMAGE_HEIGHT, IMAGE_WIDTH)
