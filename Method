@@ -1,0 +1,12 @@
+NORMAL = lasagne.init.Normal()
+UNIFORM = lasagne.init.Uniform()
+HE_NORMAL = lasagne.init.HeNormal(gain='relu')
+HE_UNIFORM = lasagne.init.HeUniform(gain='relu')
+CONSTANT = lasagne.init.Constant(val=CONSTANT_VALUE)
+LEAKY_RECTIFY = lasagne.nonlinearities.LeakyRectify(leakiness=LEAKNESS)
+RELU = lasagne.nonlinearities.rectify
+SIGMOID = lasagne.nonlinearities.sigmoid
+TANH = lasagne.nonlinearities.tanh
+SOFTMAX = lasagne.nonlinearities.softmax
+ADAM = lasagne.updates.adam
+CROSS_ENTROPY = lasagne.objectives.categorical_crossentropy
